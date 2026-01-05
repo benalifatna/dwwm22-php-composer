@@ -1,0 +1,21 @@
+{
+    "name": "dwwm22/composer",
+    "description": "Learn composer in php",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fatna",
+            "email": "benalifatna02@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
+}

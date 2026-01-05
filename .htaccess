@@ -1,0 +1,3 @@
+RewriteEngire On
+
+RewriteRule ^(.*)$ public/index.php[L]
