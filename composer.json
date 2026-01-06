@@ -16,6 +16,11 @@
     ],
     "minimum-stability": "stable",
     "require-dev": {
-        "roave/security-advisories": "dev-latest"
+        "roave/security-advisories": "dev-latest",
+        "symfony/var-dumper": "^7.4"
+    },
+    "require": {
+        "rakit/validation": "^1.4",
+        "vlucas/phpdotenv": "^5.6"
     }
 }
